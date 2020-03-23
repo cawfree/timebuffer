@@ -22,7 +22,7 @@ Through calls to `use()`, we can define multiple timeboxed handlers; these decla
 Each declared channel of sensitivity will be returned by the `TimeBuffer` instance, which will manage segmentation and garbage collection.
 
 ```javascript
-import TimeBuffer from "timebuffer";
+import TimeBuffer from "@cawfree/timebuffer";
 
 const { population, currency } = new TimeBuffer()
   // XXX: Process all currency values in 1000ms intervals.
