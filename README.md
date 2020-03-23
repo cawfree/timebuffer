@@ -6,13 +6,13 @@ Simple segmentation of timeboxed data handlers. Easily distribute periodic messa
 Using [`npm`]():
 
 ```sh
-npm i -s timebuffer
+npm i -s @cawfree/timebuffer
 ```
 
 Using [`yarn`]():
 
 ```sh
-yarn add timebuffer
+yarn add @cawfree/timebuffer
 ```
 
 ## ✍️ Usage
