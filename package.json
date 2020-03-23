@@ -1,0 +1,40 @@
+{
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prettify": "yarn prettier --write \"**/*.js\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "timed",
+    "buffer",
+    "message",
+    "split",
+    "listener",
+    "event"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "leasot": "^10.1.0",
+    "prettier": "^2.0.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "events": "^3.1.0",
+    "nanoid": "^2.1.11",
+    "type-check": "^0.3.2"
+  },
+  "name": "timebuffer",
+  "version": "0.0.1-alpha.0",
+  "description": "⏲️  Simple segmentation of timeboxed data handlers.",
+  "main": "dist",
+  "repository": "https://github.com/cawfree/timebuffer",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false
+}
